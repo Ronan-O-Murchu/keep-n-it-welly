@@ -6,17 +6,26 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-#logo {
+.nav-bar {
     height: 200px;
-    width: 200px;
-    margin-left: 50px;
-}
-
-#navigation {
     background-color: black;
-    height: 200px;
 }
 
-.nav-menu {
+#logo {
+    float: left;
+    height: 100px;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.menu {
+    margin-right: 200px;
+    padding: 50px;
+}
+
+.menu li {
     float: right;
+    display: inline;
+    margin-right: 25px;
+    text-decoration: none;
 }
