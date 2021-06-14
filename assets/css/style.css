@@ -1,6 +1,5 @@
 body {
     font: arial, helvetica;
-    text
 }
 
 h1 {
@@ -13,12 +12,11 @@ h1 {
     margin-left: 50px;
 }
 
-nav {
+#navigation {
     background-color: black;
-    height: 250px;
+    height: 200px;
 }
-nav > ul {
-    display: inline-block;
+
+.nav-menu {
     float: right;
-    font: inherit;
 }
