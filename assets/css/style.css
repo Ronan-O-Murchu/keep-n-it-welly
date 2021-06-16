@@ -16,12 +16,32 @@ body {
 }
 
 .index-body {
-    height: 200px;
+    height: 500px;
     background-color: red;
 }
 
+.things-to-do-body {
+    height: 500px;
+    background-color: magenta;
+}
+
+.getting-around-body {
+    height: 500px;
+    background-color: green;
+}
+
+.gallery-body {
+    height: 500px;
+    background-color: orange;
+}
+
+.contact-us-body {
+    height: 500px;
+    background-color: blue;
+}
+
 .footer {
-    height: 200px;
+    height: 75px;
     background-color: black;
 }
 
@@ -34,6 +54,7 @@ body {
 
 ul {
     padding-right: 250px;
+    float: right;
 }
 
 ul > li {
@@ -78,4 +99,9 @@ ul > li {
     background-color: yellow;
     position: absolute;
     margin: 12.5px;
+}
+
+#test-link {
+    position: absolute;
+    text-align: center;
 }
