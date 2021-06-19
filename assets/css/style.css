@@ -16,11 +16,6 @@ body {
 header {
     height: 200px;
     background-color: black;
-    position: relative;
-}
-
-#home-link {
-    border: 2px solid white;
 }
 
 #logo {
