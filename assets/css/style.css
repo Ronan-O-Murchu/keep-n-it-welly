@@ -15,12 +15,28 @@ body {
     background-color: black;
 }
 
+/* This is the index-body style section */
+
 .index-body {
     height: 500px;
     background-color: red;
 }
 
-.things-to-do-body {
+.index-body-image-container {
+    width: 100%;
+    height: 600px;
+}
+
+#index-body-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/wellington-night.jpg) no-repeat center center;
+    position: relative;
+}
+
+/* This is the thigns-to-do-body style section */
+
+/* .things-to-do-body {
     height: 500px;
     background-color: magenta;
 }
@@ -38,7 +54,7 @@ body {
 .contact-us-body {
     height: 500px;
     background-color: blue;
-}
+} */
 
 .footer {
     height: 75px;
@@ -62,46 +78,4 @@ ul > li {
     padding-right: 35px;
     padding-top: 150px;
     list-style-type: none;
-}
-
-#body-image {
-    width: 100%;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-#box1 {
-    height: 200px;
-    width: 200px;
-    background-color: green;
-    position: absolute;
-}
-
-#box2 {
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    position: absolute;
-    margin: 25px;
-}
-
-#box3 {
-    height: 125px;
-    width: 125px;
-    background-color: red;
-    position: absolute;
-    margin: 12.5px;
-}
-
-#box4 {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-    position: absolute;
-    margin: 12.5px;
-}
-
-#test-link {
-    position: absolute;
-    text-align: center;
 }
