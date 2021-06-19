@@ -13,9 +13,14 @@ body {
 
 /* This is the header style section */
 
-.header {
+header {
     height: 200px;
     background-color: black;
+    position: relative;
+}
+
+#home-link {
+    border: 2px solid white;
 }
 
 #logo {
@@ -35,6 +40,7 @@ ul > li {
     padding-right: 35px;
     padding-top: 150px;
     list-style-type: none;
+    text-decoration: none;
 }
 
 /* This is the footer style section */
@@ -43,7 +49,7 @@ footer {
     margin-top: auto;
     height: 75px;
     background-color: black;
-    position: fixed;
+    position: relative;
 }
 
 /* This is the index-body style section */
