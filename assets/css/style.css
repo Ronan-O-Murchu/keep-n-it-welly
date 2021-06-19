@@ -10,28 +10,57 @@ body {
     font-family: open sans, helvetica, sans serif;
     color: darkgray;
 }
+
+/* This is the header style section */
+
 .header {
     height: 200px;
     background-color: black;
 }
 
-/* This is the index-body style section */
-
-.index-body {
-    height: 500px;
-    background-color: red;
+#logo {
+    float: left;
+    padding-left: 250px;
+    padding-top: 25px;
+    height: 150px;
 }
 
-.index-body-image-container {
+ul {
+    padding-right: 250px;
+    float: right;
+}
+
+ul > li {
+    float: right;
+    padding-right: 35px;
+    padding-top: 150px;
+    list-style-type: none;
+}
+
+/* This is the footer style section */
+
+footer {
+    margin-top: auto;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+}
+
+/* This is the index-body style section */
+
+#index-body-image-container {
     width: 100%;
-    height: 600px;
+    height: 900px;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
 }
 
 #index-body-image {
     width: 100%;
     height: 100%;
     background: url(../images/wellington-night.jpg) no-repeat center center;
-    position: relative;
+    background-size: cover;
 }
 
 /* This is the thigns-to-do-body style section */
@@ -55,27 +84,3 @@ body {
     height: 500px;
     background-color: blue;
 } */
-
-.footer {
-    height: 75px;
-    background-color: black;
-}
-
-#logo {
-    float: left;
-    padding-left: 250px;
-    padding-top: 25px;
-    height: 150px;
-}
-
-ul {
-    padding-right: 250px;
-    float: right;
-}
-
-ul > li {
-    float: right;
-    padding-right: 35px;
-    padding-top: 150px;
-    list-style-type: none;
-}
