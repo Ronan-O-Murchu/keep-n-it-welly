@@ -23,67 +23,69 @@ body {
     margin-top: 20px;
 }
 
-#wrapper {
+#nav-wrapper {
     float: right;
     padding-right: 200px;
     height: 120px;
 }
 
-.outter-box {
+.nav-outter-box {
     height: 100px;
     width: 150px;
     margin: auto;
     display: inline-block;
 }
 
-#nav-link-stamps {
-    margin: 0;
+/* Nav Link Styles */
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    list-style: none;
+    text-align: right;
 }
 
-#inner-box-1 {
+#nav-home-inner-box {
     height: 75px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     position: relative;
 }
 
-#inner-box-2 {
+#nav-things-to-do-inner-box {
     height: 75px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     position: relative;
 }
 
-#inner-box-3 {
+#nav-getting-around-inner-box {
     height: 75px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     position: relative;
 }
 
-#inner-box-4 {
+#nav-gallery-inner-box {
     height: 75px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     position: relative;
 }
 
-#inner-box-5 {
+#nav-contact-us-inner-box {
     height: 75px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     position: relative;
 }
+
+/* Nav Stamp Styles */
 
 #contact-us-stamp {
     height: 10px;
@@ -118,12 +120,54 @@ body {
 }
 
 #home-stamp {
+    height: 10px;
+    width: 150px;
+    background-color: red;
+    margin: auto;
+    display: inline-block;
+}
+
+#contact-us-stamp-select {
+    height: 20px;
+    width: 150px;
+    background-color: magenta;
+    margin: auto;
+    display: inline-block;
+}
+
+#gallery-stamp-select {
+    height: 20px;
+    width: 150px;
+    background-color: green;
+    margin: auto;
+    display: inline-block;
+}
+
+#getting-around-stamp-select {
+    height: 20px;
+    width: 150px;
+    background-color: yellow;
+    margin: auto;
+    display: inline-block;
+}
+
+#things-to-do-stamp-select {
+    height: 20px;
+    width: 150px;
+    background-color: blue;
+    margin: auto;
+    display: inline-block;
+}
+
+#home-stamp-select {
     height: 20px;
     width: 150px;
     background-color: red;
     margin: auto;
     display: inline-block;
 }
+
+
 
 /* This is the footer style section */
 
