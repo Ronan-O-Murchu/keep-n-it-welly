@@ -10,7 +10,7 @@ body {
     color: darkgray;
 }
 
-#container-box {
+#nav-container {
     height: 120px;
     width: 100%;
     background-color: black;
@@ -193,6 +193,17 @@ footer {
     height: 100%;
     background: url(../images/wellington-night.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#index-welcome {
+    height: 75%;
+    width:66%;
+    background-color: rgba(53, 36, 0, 0.301);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid darkgray;
 }
 
 /* This is the thigns-to-do-body style section */
