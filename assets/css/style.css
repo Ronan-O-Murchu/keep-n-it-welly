@@ -17,10 +17,11 @@ body {
 }
 
 #logo {
-    width: 120px;
+    width: 225px;
     padding-left: 200px;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 #nav-wrapper {
@@ -183,7 +184,6 @@ footer {
 #index-body-image-container {
     width: 100%;
     height: 800px;
-    /* background-color: red; */
     overflow: hidden;
     position: relative;
 }
@@ -191,13 +191,13 @@ footer {
 #index-body-image {
     width: 100%;
     height: 100%;
-    background: url(../images/wellington-night.jpg) no-repeat center center;
+    background: url(../images/wellington-city-from-mt-vic-2.jpg) no-repeat center center;
     background-size: cover;
 }
 
 #index-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -210,7 +210,7 @@ footer {
 }
 
 #index-content > h1, p {
-    color: darkgray;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
 }
@@ -219,24 +219,66 @@ footer {
     font-size: 135%;
 }
 
-/* This is the thigns-to-do-body style section */
+/* This is the things-to-do style section */
 
-/* .things-to-do-body {
+#things-to-do-body-container {
+    width: 100%;
     height: 800px;
-    background-color: magenta;
+    overflow: hidden;
+    position: relative;
 }
 
-.getting-around-body {
-    height: 800px;
-    background-color: green;
+#things-to-do-body-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/wellington-city-from-mt-vic-1.jpg) no-repeat center center;
+    background-size: cover;
 }
 
-.gallery-body {
+/* This is getting-around style section */
+
+#getting-around-body-container {
+    width: 100%;
     height: 800px;
-    background-color: orange;
+    overflow: hidden;
+    position: relative;
 }
 
-.contact-us-body {
+#getting-around-body-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/wellington-cable-car.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* This is gallery style section */
+
+#gallery-body-image-container {
+    width: 100%;
     height: 800px;
-    background-color: blue;
-} */
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery-body-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/skyline-walkway-wellington-city-and-sea.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* This is contact-us style section */
+
+#contact-us-body-image-container {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact-us-body-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/wellington-cuba-street.jpg) no-repeat center center;
+    background-size: cover;
+}
