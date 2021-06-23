@@ -168,8 +168,6 @@ a {
     display: inline-block;
 }
 
-
-
 /* This is the footer style section */
 
 footer {
@@ -235,6 +233,26 @@ footer {
     background-size: cover;
 }
 
+#things-to-do-welcome {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#things-to-do-content {
+    padding: 7%;
+}
+
+#things-to-do-content > h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+}
+
 /* This is getting-around style section */
 
 #getting-around-body-container {
@@ -249,6 +267,26 @@ footer {
     height: 100%;
     background: url(../images/wellington-cable-car.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#getting-around-welcome {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#getting-around-content {
+    padding: 7%;
+}
+
+#getting-around-content > h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
 }
 
 /* This is gallery style section */
@@ -267,6 +305,26 @@ footer {
     background-size: cover;
 }
 
+#gallery-welcome {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#gallery-content {
+    padding: 7%;
+}
+
+#gallery-content > h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+}
+
 /* This is contact-us style section */
 
 #contact-us-body-image-container {
@@ -281,4 +339,24 @@ footer {
     height: 100%;
     background: url(../images/wellington-city-bucket-fountain.png) no-repeat center center;
     background-size: cover;
+}
+
+#contact-us-welcome {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#contact-us-content {
+    padding: 7%;
+}
+
+#contact-us-content > h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
 }
