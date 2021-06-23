@@ -14,6 +14,8 @@ body {
     height: 120px;
     width: 100%;
     background-color: black;
+    position: sticky;
+    top: 0;
 }
 
 #logo {
@@ -255,13 +257,31 @@ footer {
 }
 
 #te-papa-section {
-    width: 80%;
-    background-color: white;
-    color: black;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     margin: auto;
-    margin-top: 10%;
-    padding: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#te-papa-text {
+    float: right;
+}
+
+#te-papa-thumb-section {
+    float: left;
+}
+
+#te-papa-thumb {
+    height: 400px;
+    width: 400px;
+    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid darkgray;
 }
 
 /* This is getting-around style section */
