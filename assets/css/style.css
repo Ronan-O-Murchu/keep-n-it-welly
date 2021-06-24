@@ -226,6 +226,7 @@ footer {
     height: 800px;
     overflow: auto;
     position: relative;
+    margin: auto;
 }
 
 #things-to-do-body-image {
@@ -239,7 +240,7 @@ footer {
 #things-to-do-welcome {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
+    position: relative;
     margin-left: 20%;
     margin-top: 7.5%;
     border-radius: 10px;
@@ -253,35 +254,157 @@ footer {
 #things-to-do-content > h1, p {
     color: rgb(255, 255, 255);
     text-align: center;
-    position: relative;
 }
 
 #te-papa-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    margin: auto;
-    margin-left: 100px;
+    position: relative;
+    margin-right: 10%;
+    margin-top: 5%;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid darkgray;
-}
-
-#te-papa-text {
     float: right;
 }
 
-#te-papa-thumb-section {
-    float: left;
-}
-
 #te-papa-thumb {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
     border-radius: 50%;
     position: relative;
     border: 5px solid darkgray;
+    display: inline-block;
+    float: left;
+}
+
+#te-papa-text {
+    display: inline-block;
+    /*float: right;*/ 
+    width: 75%;
+    padding: 20px;
+}
+
+#botanical-gardens-section {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    float: left;
+}
+
+#botanical-gardens-thumb {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid darkgray;
+    display: inline-block;
+    float: left;
+}
+
+#botanical-gardens-text {
+    display: inline-block;
+    /*float: right;*/ 
+    width: 75%;
+    padding: 20px;
+}
+
+#welly-trails-section {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    float: right;
+}
+
+#welly-trails-thumb {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid darkgray;
+    display: inline-block;
+    float: left;
+}
+
+#welly-trails-text {
+    display: inline-block;
+    /*float: right;*/ 
+    width: 75%;
+    padding: 20px;
+}
+
+#zealandia-section {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    float: left;
+}
+
+#zealandia-thumb {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid darkgray;
+    display: inline-block;
+    float: left;
+}
+
+#zealandia-text {
+    display: inline-block;
+    /*float: right;*/ 
+    width: 75%;
+    padding: 20px;
+}
+
+#weta-workshop-section {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    float: right;
+}
+
+#weta-workshop-thumb {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid darkgray;
+    display: inline-block;
+    float: left;
+}
+
+#weta-workshop-text {
+    display: inline-block;
+    /*float: right;*/ 
+    width: 75%;
+    padding: 20px;
 }
 
 /* This is getting-around style section */
