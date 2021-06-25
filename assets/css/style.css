@@ -261,7 +261,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid darkgray;
@@ -412,8 +412,9 @@ footer {
 #getting-around-body-container {
     width: 100%;
     height: 800px;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
+    margin: auto;
 }
 
 #getting-around-body-image {
@@ -421,12 +422,13 @@ footer {
     height: 100%;
     background: url(../images/wellington-cable-car.jpg) no-repeat center center;
     background-size: cover;
+    position: fixed;
 }
 
 #getting-around-welcome {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
+    position: relative;
     margin-left: 20%;
     margin-top: 7.5%;
     border-radius: 10px;
@@ -440,7 +442,118 @@ footer {
 #getting-around-content > h1, p {
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+#getting-around-section {
+    width: 90%;
+    /*background-color: rgba(0, 0, 0, 0.6);*/
     position: relative;
+    margin: auto;
+    margin-top: 10%;
+    /*padding: 20px;*/
+    /*border-radius: 10px;
+    border: 2px solid darkgray;*/
+}
+
+#wellington-trains-thumb {
+    background-image: url(../images/wellington-city-train.jpg);
+    width: 50%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-trains-text {
+    width: 75%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+#wellington-bus-thumb {
+    background-image: url(../images/wellington-city-bus.jpg);
+    width: 50%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-bus-text {
+    width: 75%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+#wellington-airport-thumb {
+    background-image: url(../images/wellington-city-airport.jpg);
+    width: 50%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-airport-text {
+    width: 75%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+#wellington-rentals-thumb {
+    background-image: url(../images/wellington-city-rental-cars.jpg);
+    width: 50%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-rentals-text {
+    width: 75%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 10px;
 }
 
 /* This is gallery style section */
