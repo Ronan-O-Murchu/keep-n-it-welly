@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,12 @@
 
 body {
     font-family: open sans, helvetica, sans serif;
-    color: darkgray;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: whitesmoke;
 }
 
 #nav-container {
@@ -251,23 +256,32 @@ footer {
     padding: 7%;
 }
 
-#things-to-do-content > h1, p {
+#things-to-do-content {
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
-.things-to-do-left-content {
-    text-align: left;
+.things-to-do-text {
+    text-align: justify;
+    width: 75%;
+    float: right;
 }
 
-.things-to-do-right-content {
-    text-align: right;
+#things-to-do-right-text {
+    display: inline-block; 
+    width: 100%;
+    float: right;
+}
+
+#things-to-do-left-text {
+    display: inline-block; 
+    width: 100%;
+    float: left;
 }
 
 #te-papa-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
     margin-right: 10%;
     margin-top: 10%;
     padding: 20px;
@@ -279,22 +293,15 @@ footer {
 #te-papa-thumb {
     height: 200px;
     width: 200px;
-    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    background-image: url(../images/te-papa-thumb.jpg);
+    background-size: cover;
     border-radius: 50%;
-    position: relative;
     border: 5px solid darkgray;
-    display: inline-block;
     float: left;
-}
-
-#te-papa-text {
-    display: inline-block;
-    text-align: right; 
-    width: 75%;
     padding: 20px;
 }
 
-#botanical-gardens-section {
+#bot-gardens-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
@@ -306,21 +313,16 @@ footer {
     float: left;
 }
 
-#botanical-gardens-thumb {
+#bot-gardens-thumb {
     height: 200px;
     width: 200px;
-    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    background-image: url(../images/bot-gardens-thumb.jpg);
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
     border-radius: 50%;
-    position: relative;
     border: 5px solid darkgray;
-    display: inline-block;
     float: left;
-}
-
-#botanical-gardens-text {
-    display: inline-block;
-    /*float: right;*/ 
-    width: 75%;
     padding: 20px;
 }
 
@@ -339,22 +341,15 @@ footer {
 #welly-trails-thumb {
     height: 200px;
     width: 200px;
-    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    background-image: url(../images/wellington-trails-thumb.jpg);
+    background-size: cover;
     border-radius: 50%;
-    position: relative;
     border: 5px solid darkgray;
-    display: inline-block;
     float: left;
-}
-
-#welly-trails-text {
-    display: inline-block;
-    /*float: right;*/ 
-    width: 75%;
     padding: 20px;
 }
 
-#zealandia-section {
+#weta-workshop-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
@@ -366,25 +361,18 @@ footer {
     float: left;
 }
 
-#zealandia-thumb {
+#weta-workshop-thumb {
     height: 200px;
     width: 200px;
-    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    background-image: url(../images/weta-workshop-thumb.jpg);
+    background-size: cover;
     border-radius: 50%;
-    position: relative;
     border: 5px solid darkgray;
-    display: inline-block;
     float: left;
-}
-
-#zealandia-text {
-    display: inline-block;
-    /*float: right;*/ 
-    width: 75%;
     padding: 20px;
 }
 
-#weta-workshop-section {
+#zealandia-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
@@ -397,21 +385,14 @@ footer {
     float: right;
 }
 
-#weta-workshop-thumb {
+#zealandia-thumb {
     height: 200px;
     width: 200px;
-    background-image: url(../images/te-papa-national-museum-wellington-city.jpg);
+    background-image: url(../images/zealandia-thumb.jpg);
+    background-size: cover;
     border-radius: 50%;
-    position: relative;
     border: 5px solid darkgray;
-    display: inline-block;
     float: left;
-}
-
-#weta-workshop-text {
-    display: inline-block;
-    /*float: right;*/ 
-    width: 75%;
     padding: 20px;
 }
 
