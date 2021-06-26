@@ -211,9 +211,22 @@ a {
 
 footer {
     margin-top: auto;
-    height: 50px;
+    height: 60px;
     background-color: black;
     position: relative;
+}
+
+#social-media-link-container {
+    margin: auto;
+    margin-left: 200px;
+}
+
+#social-media-link {
+    height: 30px;
+    width: 30px;
+    padding-top: 15px;
+    display: inline-block;
+    margin-right: 25px;
 }
 
 /* This is the index-body style section */
