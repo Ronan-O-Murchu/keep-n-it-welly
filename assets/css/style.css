@@ -12,7 +12,7 @@ body {
 
 h1, h2 {
     font-family: 'Kaushan Script', cursive;
-    color: whitesmoke;
+    color: rgb(255, 208, 0);
     font-size: 200%;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
@@ -20,7 +20,8 @@ h1, h2 {
 #motovational-message {
     font-family: 'Kaushan Script', cursive;
     color: whitesmoke;
-    font-size: 150%;
+    font-size: 300%;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 #nav-container {
@@ -53,9 +54,8 @@ h1, h2 {
 }
 
 a {
-    /* text-decoration: none; */
-    color: goldenrod;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 208, 0);
 }
 
 /* Nav Link Styles */
@@ -234,7 +234,7 @@ footer {
 
 #index-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -246,8 +246,8 @@ footer {
     padding: 7%;
 }
 
-#index-content > h1, p {
-    color: rgb(255, 255, 255);
+#index-content {
+    color: whitesmoke;
     text-align: center;
     position: relative;
 }
@@ -272,7 +272,7 @@ footer {
 
 #things-to-do-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -285,7 +285,7 @@ footer {
 }
 
 #things-to-do-content {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -309,7 +309,7 @@ footer {
 
 #te-papa-section {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     margin-right: 10%;
     margin-top: 10%;
     padding: 20px;
@@ -332,7 +332,7 @@ footer {
 
 #bot-gardens-section {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-left: 10%;
     margin-top: 5%;
@@ -358,7 +358,7 @@ footer {
 
 #welly-trails-section {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-right: 10%;
     margin-top: 5%;
@@ -382,7 +382,7 @@ footer {
 
 #weta-workshop-section {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-left: 10%;
     margin-top: 5%;
@@ -406,7 +406,7 @@ footer {
 
 #zealandia-section {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-right: 10%;
     margin-top: 5%;
@@ -449,7 +449,7 @@ footer {
 
 #getting-around-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -461,8 +461,8 @@ footer {
     padding: 7%;
 }
 
-#getting-around-content > h1, p {
-    color: rgb(255, 255, 255);
+#getting-around-content {
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -477,7 +477,7 @@ footer {
     background-image: url(../images/wellington-trains.jpg);
     width: 850px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin: auto;
     margin-top: 2%;
@@ -490,7 +490,7 @@ footer {
     background-image: url(../images/wellington-buses.jpg);
     width: 850px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin: auto;
     margin-top: 2%;
@@ -503,7 +503,7 @@ footer {
     background-image: url(../images/wellington-rentals.jpg);
     width: 850px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin: auto;
     margin-top: 2%;
@@ -516,7 +516,7 @@ footer {
     background-image: url(../images/wellington-airport.jpg);
     width: 850px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin: auto;
     margin-top: 2%;
@@ -527,7 +527,7 @@ footer {
 
 #getting-around-text {
     width: 75%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     margin: auto;
     margin-top: 2%;
@@ -556,7 +556,7 @@ footer {
 
 #gallery-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -568,8 +568,8 @@ footer {
     padding: 7%;
 }
 
-#gallery-content > h1, p {
-    color: rgb(255, 255, 255);
+#gallery-content {
+    color: whitesmoke;
     text-align: center;
     position: relative;
 }
@@ -592,7 +592,7 @@ footer {
 
 #contact-us-welcome {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     margin-left: 20%;
     margin-top: 7.5%;
@@ -604,8 +604,8 @@ footer {
     padding: 7%;
 }
 
-#contact-us-content > h1, p {
-    color: rgb(255, 255, 255);
+#contact-us-content {
+    color: whitesmoke;
     text-align: center;
     position: relative;
 }
