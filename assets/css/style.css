@@ -13,6 +13,14 @@ body {
 h1, h2 {
     font-family: 'Kaushan Script', cursive;
     color: whitesmoke;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px black;
+}
+
+#motovational-message {
+    font-family: 'Kaushan Script', cursive;
+    color: whitesmoke;
+    font-size: 150%;
 }
 
 #nav-container {
@@ -218,10 +226,6 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
-}
-
-#motovational-message {
-    font-size: 150%;
 }
 
 /* This is the things-to-do style section */
