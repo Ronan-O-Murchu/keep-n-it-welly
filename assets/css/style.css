@@ -53,8 +53,9 @@ h1, h2 {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    /* text-decoration: none; */
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Nav Link Styles */
@@ -498,8 +499,8 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-#wellington-airport-thumb {
-    background-image: url(../images/wellington-airport.jpg);
+#wellington-rentals-thumb {
+    background-image: url(../images/wellington-rentals.jpg);
     width: 850px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -511,8 +512,8 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-#wellington-rentals-thumb {
-    background-image: url(../images/wellington-rentals.jpg);
+#wellington-airport-thumb {
+    background-image: url(../images/wellington-airport.jpg);
     width: 850px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.6);
