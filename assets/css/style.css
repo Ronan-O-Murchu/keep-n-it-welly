@@ -644,3 +644,27 @@ footer {
     text-align: center;
     position: relative;
 }
+
+#contact-us-form-content {
+    text-align: left;
+}
+
+.form-text-field {
+    width: 30%;
+    float: right;
+    margin-right: 50%;
+}
+
+.form-input-text-field {
+    float: left;
+    text-align: right;
+}
+
+.form-button {
+    width: 100px;
+    height: 25px;
+    /* float: right; */
+    /* clear: both; */
+    margin-right: 50%;
+}
+

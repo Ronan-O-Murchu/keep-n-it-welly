@@ -53,19 +53,22 @@
     <section id="contact-us-body-image-container">
         <div id="contact-us-welcome">
             <div id="contact-us-content">
-                <h1>Kia Ora</h1><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum ante sit amet mi finibus mattis non tempus velit.
-                    Suspendisse sollicitudin a mauris sit amet sollicitudin. Ut varius tempus lacus, eget dictum mi ultrices ac. Donec eget ipsum a justo ultricies laoreet.
-                    Donec suscipit posuere leo, nec maximus ipsum sodales eu. Nullam quis eros id eros ultrices dapibus ut quis urna.
-                    Fusce quis urna non orci laoreet pulvinar sit amet nec enim.</p><br>
-                    
-                <p>Praesent posuere velit ut odio viverra, sit amet tempus lorem vestibulum.
-                    Nam euismod nibh turpis, at tincidunt urna laoreet quis. Donec at libero a neque aliquet scelerisque sit amet sit amet urna.
-                    Vivamus sit amet eros neque. Suspendisse nec mi arcu. Donec a semper neque. Phasellus in elit euismod, porttitor metus in, rutrum massa.
-                    Fusce fringilla nulla a vestibulum venenatis. at rutrum est. Sed turpis tellus, sagittis id dolor ut, elementum dignissim nibh.
-                    Pellentesque non urna mauris. Proin vel ligula non orci pulvinar fermentum. Donec nec lorem at mauris aliquam dignissim sit amet eget nisl.
-                    Praesent et feugiat urna.</p><br>
-                    <p id="motovational-message">This is where the motivationla message will go!</p>
+                <form action="#" method="POST" id="contact-us-form-content">
+                    <label for="full-name" class="form-input-text-field">Full Name:</label>
+                    <input type="text" name="full-name" id="full-name" class="form-text-field">
+                    <br>
+                    <label for="contact-number" class="form-input-text-field">Contact Number:</label>
+                    <input type="text" name="contact-number" id="contact-number" class="form-text-field">
+                    <br>
+                    <label for="email" class="form-input-text-field">Email Address:</label>
+                    <input type="email" name="email" id="email" class="form-text-field">
+                    <br>
+                    <label for="comments" class="form-input-text-field">Your message:</label>
+                    <textarea name="comments" rows="8" cols="50" placeholder="Your message here ..." class="form-text-field"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="form-button">
+                    <input type="reset" value="Clear" class="form-button">
+                </form>
             </div>
         </div>
             <div id="contact-us-body-image"></div>
