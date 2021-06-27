@@ -679,7 +679,7 @@ label, input, textarea {
 
 
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1900px) {
 
     #logo {
         width: 225px;
@@ -708,23 +708,23 @@ label, input, textarea {
     }
     
     #nav-home-inner-box > a {
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #nav-things-to-do-inner-box > a {
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #nav-getting-around-inner-box > a {
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #nav-gallery-inner-box > a {
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #nav-contact-us-inner-box > a {
-        font-size: 75%;
+        font-size: 80%;
     }
     
     #nav-home-inner-box {
@@ -794,14 +794,6 @@ label, input, textarea {
         column-gap: 0;
     }
 
-}
-
-
-
-
-
-@media screen and (max-width: 1900px) {
-
     .things-to-do-text {
         text-align: center;
         margin: auto;
@@ -870,6 +862,118 @@ label, input, textarea {
 }
 
 
+@media screen and (max-width: 1110px) {
+    #logo {
+        width: 225px;
+        margin-left: 25px;
+        margin-top: 10px;
+        position: absolute;
+        padding: 0;
+    }
+
+    #nav-wrapper {
+        float: right;
+        margin-right: 25px;
+        height: 120px;
+        padding: 0;
+    }
+
+    #social-media-link-container {
+        margin: auto;
+        margin-left: 25px;
+    }
+
+    .nav-outter-box {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        display: inline-block;
+    }
+    
+    #nav-home-inner-box > a {
+        font-size: 80%;
+    }
+
+    #nav-things-to-do-inner-box > a {
+        font-size: 80%;
+    }
+
+    #nav-getting-around-inner-box > a {
+        font-size: 80%;
+    }
+
+    #nav-gallery-inner-box > a {
+        font-size: 80%;
+    }
+
+    #nav-contact-us-inner-box > a {
+        font-size: 80%;
+    }
+    
+    #nav-home-inner-box {
+        width: 100px;
+    }
+    
+    #nav-things-to-do-inner-box {
+        width: 100px;
+    }
+    
+    #nav-getting-around-inner-box {
+        width: 100px;
+    }
+    
+    #nav-gallery-inner-box {
+        width: 100px;
+    }
+    
+    #nav-contact-us-inner-box {
+        width: 100px;
+    }
+    
+    #contact-us-stamp {
+        width: 100px;
+    }
+    
+    #gallery-stamp {
+        width: 100px;
+    }
+    
+    #getting-around-stamp {
+        width: 100px;
+    }
+    
+    #things-to-do-stamp {
+        width: 100px;
+    }
+    
+    #home-stamp {
+        width: 100px;
+    }
+    
+    #contact-us-stamp-select {
+        width: 100px;
+    }
+    
+    #gallery-stamp-select {
+        width: 100px;
+    }
+    
+    #getting-around-stamp-select {
+        width: 100px;
+    }
+    
+    #things-to-do-stamp-select {
+        width: 100px;
+    }
+    
+    #home-stamp-select {
+        width: 100px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 375px) {
 
     #welcome {
@@ -906,21 +1010,28 @@ label, input, textarea {
 
     #wellington-trains-thumb {
         width: 80%;
-        background-position-x: -450px;
+        height: 100px;
+        background-size: cover;
+        background-position-x: -75px;
     }
 
     #wellington-bus-thumb {
         width: 80%;
-        background-position-x: -450px;
+        height: 100px;
+        background-size: cover;
+        background-position-x: -85px;
     }
 
     #wellington-rentals-thumb {
         width: 80%;
+        height: 100px;
+        background-size: cover;
     }
 
     #wellington-airport-thumb {
         width: 80%;
-        background-position-x: -200px;
+        height: 100px;
+        background-size: cover;
     }
 
     #gallery-welcome {
@@ -932,6 +1043,131 @@ label, input, textarea {
         line-height: 0;
         column-count: 2;
         column-gap: 0;
+    }
+
+    #logo {
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #nav-wrapper {
+        float: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 175px;
+    }
+
+    #nav-container {
+        height: 175px;
+    }
+
+    #nav-home-inner-box {
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 20%;
+        display: flex;
+    }
+
+    #nav-things-to-do-inner-box {
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 20%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #nav-getting-around-inner-box {
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 20%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #nav-gallery-inner-box {
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 20%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #nav-contact-us-inner-box {
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 20%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .nav-outter-box {
+        width: 19%;
+        height: 20%;
+        margin: 0;
+        margin-top: 40px;
+        bottom: 0;
+        position: relative;
+    }
+
+    #contact-us-stamp {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #gallery-stamp {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #getting-around-stamp {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #things-to-do-stamp {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #home-stamp {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #contact-us-stamp-select {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #gallery-stamp-select {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #getting-around-stamp-select {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #things-to-do-stamp-select {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+    
+    #home-stamp-select {
+        width: 19%;
+        margin-top: 19.5px;
+    }
+
+    .form-input-text-field, textarea {
+        width: 200px;
     }
 
 }
