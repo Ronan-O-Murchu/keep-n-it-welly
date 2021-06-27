@@ -10,7 +10,7 @@ body {
     color: whitesmoke;
 }
 
-h1, h2, {
+h1, h2 {
     font-family: 'Kaushan Script', cursive;
     color: rgb(255, 208, 0);
     font-size: 200%;
@@ -322,13 +322,13 @@ footer {
 #things-to-do-right-text {
     display: inline-block; 
     width: 100%;
-    float: right;
+    /* float: right; */
 }
 
 #things-to-do-left-text {
     display: inline-block; 
     width: 100%;
-    float: left;
+    /* float: left; */
 }
 
 #te-papa-section {
@@ -370,8 +370,6 @@ footer {
     height: 200px;
     width: 200px;
     background-image: url(../images/bot-gardens-thumb.jpg);
-    display: inline-block;
-    text-align: center;
     background-size: cover;
     border-radius: 50%;
     border: 5px solid darkgray;
