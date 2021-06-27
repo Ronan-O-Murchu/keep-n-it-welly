@@ -10,7 +10,7 @@ body {
     color: whitesmoke;
 }
 
-h1, h2 {
+h1, h2, {
     font-family: 'Kaushan Script', cursive;
     color: rgb(255, 208, 0);
     font-size: 200%;
@@ -646,25 +646,25 @@ footer {
 }
 
 #contact-us-form-content {
-    text-align: left;
-}
-
-.form-text-field {
-    width: 30%;
-    float: right;
-    margin-right: 50%;
-}
-
-.form-input-text-field {
-    float: left;
-    text-align: right;
+    margin: auto;
 }
 
 .form-button {
     width: 100px;
     height: 25px;
-    /* float: right; */
-    /* clear: both; */
-    margin-right: 50%;
+    background-color: rgb(255, 208, 0);
+    font-weight: bold;
 }
 
+.form-button:hover {
+    background-color: black;
+    color: rgb(255, 208, 0);
+}
+
+.form-input-text-field {
+    width: 300px;
+}
+
+label, input, textarea {
+    margin-bottom: 1%;
+}
