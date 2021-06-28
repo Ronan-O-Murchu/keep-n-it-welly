@@ -286,7 +286,7 @@ footer {
 #te-papa-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.7);
-    margin-right: 10%;
+    margin-right: 8%;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid darkgray;
@@ -381,7 +381,7 @@ footer {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
-    margin-right: 10%;
+    margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 12.5%;
     padding: 20px;
@@ -636,14 +636,20 @@ label, input, textarea {
 
 
 
+/* ----- Responsive Styles ----- */
 
 
-@media screen and (max-width: 1900px) {
+
+
+
+@media screen and (max-width: 1800px) {
 
     #logo {
+        margin-left: 5%;
     }
 
-    #social-media-link-container {
+    #nav-wrapper {
+        width: 60%;
     }
 
     #gallery-photos {
@@ -711,11 +717,165 @@ label, input, textarea {
         margin: auto;
         float: none;
         margin-top: 20px;
+        margin-bottom: 15%;
     }
 
     #zealandia-thumb {
         margin: auto;
         float: none;
     }
+
+}
+
+
+
+
+/* ----- Responsive 1460px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 1460px) {
+    
+    #getting-around-text-airport {
+        margin-bottom: 20%;
+
+    }
+}
+
+
+
+
+/* ----- Responsive 1300px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    #zealandia-section {
+        margin-bottom: 20%;
+        position: relative;
+    }
+
+    #gallery-welcome {
+        margin-bottom: 20%;
+    }
+}
+
+
+
+
+/* ----- Responsive 1200px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    #gallery-photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    #wellington-airport-thumb {
+        width: 75%;
+        height: 125px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #wellington-rentals-thumb {
+        width: 75%;
+        height: 125px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #wellington-bus-thumb {
+        width: 75%;
+        height: 125px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #wellington-trains-thumb {
+        width: 75%;
+        height: 125pxx;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+
+
+
+/* ----- Responsive 1050px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    #zealandia-section {
+        margin-bottom: 30%;
+        position: relative;
+    }
+
+    #gallery-welcome {
+        margin-bottom: 30%;
+    }
+
+    #getting-around-text-airport {
+        margin-bottom: 30%;
+    }
+
+    #getting-around-text-airport {
+        margin-bottom: 30%;
+    }
+}
+
+
+
+
+/* ----- Responsive 750px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    #getting-around-text-airport {
+        margin-bottom: 40%;
+    }
+
+
+}
+
+
+
+
+/* ----- Responsive 675px Styles ----- */
+
+
+
+
+
+@media screen and (max-width: 675px) {
+    
+    #gallery-welcome {
+        margin-bottom: 40%;
+    }
+
 
 }
