@@ -209,7 +209,7 @@ a {
 
 footer {
     margin-top: auto;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -222,17 +222,26 @@ footer {
 }
 
 #social-media-link-text {
-    margin-right: 30px;
+    width: 500px;
     display: inline-block;
+    font-size: 80%;
+}
+
+#social-media-link-text > a {
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
 #social-media-link {
-    height: 30px;
-    width: 30px;
-    margin-top: 10px;
-    margin-right: 15px;
+    width: 100px;
+    height: 10px;
+    margin-right: 5px;
     display: inline-block;
 }
+
+
 
 /* This is the index-body style section */
 
