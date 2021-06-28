@@ -73,7 +73,6 @@ a {
     background-color: magenta;
     margin: auto;
     margin-bottom: 30px;
-    display: relative;
 }
 
 #gallery-stamp {
@@ -82,7 +81,6 @@ a {
     background-color: green;
     margin: auto;
     margin-bottom: 30px;
-    display: relative;
 }
 
 #getting-around-stamp {
@@ -91,7 +89,6 @@ a {
     background-color: yellow;
     margin: auto;
     margin-bottom: 30px;
-    display: relative;
 }
 
 #things-to-do-stamp {
@@ -100,7 +97,6 @@ a {
     background-color: blue;
     margin: auto;
     margin-bottom: 30px;
-    display: relative;
 }
 
 #home-stamp {
@@ -109,7 +105,6 @@ a {
     background-color: red;
     margin: auto;
     margin-bottom: 30px;
-    display: relative;
 }
 
 #contact-us-stamp-select {
@@ -118,7 +113,6 @@ a {
     background-color: magenta;
     margin: auto;
     margin-bottom: 10px;
-    display: relative;
 }
 
 #gallery-stamp-select {
@@ -127,7 +121,6 @@ a {
     background-color: green;
     margin: auto;
     margin-bottom: 10px;
-    display: relative;
 }
 
 #getting-around-stamp-select {
@@ -136,7 +129,6 @@ a {
     background-color: yellow;
     margin: auto;
     margin-bottom: 10px;
-    display: relative;
 }
 
 #things-to-do-stamp-select {
@@ -145,7 +137,6 @@ a {
     background-color: blue;
     margin: auto;
     margin-bottom: 10px;
-    display: relative;
 }
 
 #home-stamp-select {
@@ -154,7 +145,6 @@ a {
     background-color: red;
     margin: auto;
     margin-bottom: 10px;
-    display: relative;
 }
 
 
@@ -186,7 +176,7 @@ footer {
     margin-top: 17.5px;
 }
 
-#social-media-link {
+#social-media-link > a {
     width: 40px;
     padding-right: 2%;
     display: inline-block;
@@ -808,7 +798,7 @@ label, input, textarea {
 
     #wellington-trains-thumb {
         width: 75%;
-        height: 125pxx;
+        height: 125px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
