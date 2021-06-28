@@ -40,15 +40,25 @@ h1, h2 {
 
 #nav-wrapper {
     float: right;
-    margin-right: 10%;
+    margin-right: 0;
     height: 120px;
+    width: 50%;
 }
 
 .nav-outter-box {
     height: 100px;
-    width: 150px;
-    margin: auto;
+    width: 19%;
     display: inline-block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+
+.nav-outter-box > a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline;
 }
 
 a {
@@ -56,9 +66,11 @@ a {
     color: rgb(255, 208, 0);
 }
 
+
+
 /* Nav Link Styles */
 
-#nav-home-inner-box {
+/* #nav-home-inner-box {
     height: 75px;
     width: 150px;
     margin: auto;
@@ -121,88 +133,108 @@ a {
 #nav-contact-us-inner-box > a {
     text-decoration: none;
     color: whitesmoke;
-}
+} */
 
 /* Nav Stamp Styles */
 
 #contact-us-stamp {
-    height: 10px;
-    width: 150px;
+    height: 20px;
+    width: 100%;
     background-color: magenta;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #gallery-stamp {
-    height: 10px;
-    width: 150px;
+    height: 20px;
+    width: 100%;
     background-color: green;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #getting-around-stamp {
-    height: 10px;
-    width: 150px;
+    height: 20px;
+    width: 100%;
     background-color: yellow;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #things-to-do-stamp {
-    height: 10px;
-    width: 150px;
+    height: 20px;
+    width: 100%;
     background-color: blue;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #home-stamp {
-    height: 10px;
-    width: 150px;
+    height: 20px;
+    width: 100%;
     background-color: red;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #contact-us-stamp-select {
-    height: 20px;
-    width: 150px;
+    height: 40px;
+    width: 100%;
     background-color: magenta;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #gallery-stamp-select {
-    height: 20px;
-    width: 150px;
+    height: 40px;
+    width: 100%;
     background-color: green;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #getting-around-stamp-select {
-    height: 20px;
-    width: 150px;
+    height: 40px;
+    width: 100%;
     background-color: yellow;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #things-to-do-stamp-select {
-    height: 20px;
-    width: 150px;
+    height: 40px;
+    width: 100%;
     background-color: blue;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 #home-stamp-select {
-    height: 20px;
-    width: 150px;
+    height: 40px;
+    width: 100%;
     background-color: red;
     margin: auto;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    display: relative;
 }
 
 /* This is the footer style section */
@@ -221,24 +253,18 @@ footer {
     margin-left: 10%;
 }
 
-#social-media-link-text {
-    width: 500px;
-    display: inline-block;
-    font-size: 80%;
-}
-
-#social-media-link-text > a {
-    display: inline-block;
-    width: 40px;
-    margin-right: 10px;
+#social-media-link-container > h2 {
+    float: left;
+    padding-right: 2%;
     margin-top: 15px;
 }
 
 #social-media-link {
-    width: 100px;
-    height: 10px;
-    margin-right: 5px;
+    width: 2%;
+    padding-right: 2%;
     display: inline-block;
+    float: left;
+    margin-top: 15px;
 }
 
 
@@ -271,7 +297,6 @@ footer {
     margin-bottom: 7.5%;
     border-radius: 10px;
     border: 2px solid darkgray;
-    padding-bottom: 20px;
 }
 
 #index-welcome {
@@ -283,7 +308,6 @@ footer {
     margin-bottom: 7.5%;
     border-radius: 10px;
     border: 2px solid darkgray;
-    padding-bottom: 20px;
 }
 
 #welcome-content {
@@ -338,12 +362,27 @@ footer {
     float: right;
 }
 
-#things-to-do-right-text {
+#things-to-do-te-papa-text {
     display: inline-block; 
     width: 100%;
 }
 
-#things-to-do-left-text {
+#things-to-do-welly-trails-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#things-to-do-zealandia-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#things-to-do-bot-gardens-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#things-to-do-weta-workshop-text {
     display: inline-block; 
     width: 100%;
 }
@@ -564,7 +603,7 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-#getting-around-text {
+#getting-around-text-train {
     width: 75%;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
@@ -576,7 +615,34 @@ footer {
     text-align: center;
     padding: 20px;
 }
-#getting-around-text-airport{
+
+#getting-around-text-bus {
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 20px;
+}
+
+#getting-around-text-rental {
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    text-align: center;
+    padding: 20px;
+}
+
+#getting-around-text-airport {
     width: 75%;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
@@ -650,11 +716,11 @@ footer {
 }
 
 #contact-us-welcome {
-    width: 60%;
+    width: 80%;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    margin-left: 20%;
-    margin-top: 6%;
+    margin-left: 10%;
+    margin-top: 10%;
     border-radius: 10px;
     border: 2px solid darkgray;
 }
@@ -703,109 +769,9 @@ label, input, textarea {
 @media screen and (max-width: 1900px) {
 
     #logo {
-        width: 225px;
-        padding-left: 50px;
-        float: left;
-        margin-top: 10px;
-        position: absolute;
-    }
-
-    #nav-wrapper {
-        float: right;
-        padding-right: 50px;
-        height: 120px;
     }
 
     #social-media-link-container {
-        margin: auto;
-        margin-left: 50px;
-    }
-
-    .nav-outter-box {
-        height: 100px;
-        width: 100px;
-        margin: auto;
-        display: inline-block;
-    }
-    
-    #nav-home-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-things-to-do-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-getting-around-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-gallery-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-contact-us-inner-box > a {
-        font-size: 80%;
-    }
-    
-    #nav-home-inner-box {
-        width: 100px;
-    }
-    
-    #nav-things-to-do-inner-box {
-        width: 100px;
-    }
-    
-    #nav-getting-around-inner-box {
-        width: 100px;
-    }
-    
-    #nav-gallery-inner-box {
-        width: 100px;
-    }
-    
-    #nav-contact-us-inner-box {
-        width: 100px;
-    }
-    
-    #contact-us-stamp {
-        width: 100px;
-    }
-    
-    #gallery-stamp {
-        width: 100px;
-    }
-    
-    #getting-around-stamp {
-        width: 100px;
-    }
-    
-    #things-to-do-stamp {
-        width: 100px;
-    }
-    
-    #home-stamp {
-        width: 100px;
-    }
-    
-    #contact-us-stamp-select {
-        width: 100px;
-    }
-    
-    #gallery-stamp-select {
-        width: 100px;
-    }
-    
-    #getting-around-stamp-select {
-        width: 100px;
-    }
-    
-    #things-to-do-stamp-select {
-        width: 100px;
-    }
-    
-    #home-stamp-select {
-        width: 100px;
     }
 
     #gallery-photos {
@@ -885,110 +851,9 @@ label, input, textarea {
 
 @media screen and (max-width: 1110px) {
     #logo {
-        width: 225px;
-        margin-left: 25px;
-        margin-top: 10px;
-        position: absolute;
-        padding: 0;
-    }
-
-    #nav-wrapper {
-        float: right;
-        margin-right: 25px;
-        height: 120px;
-        padding: 0;
     }
 
     #social-media-link-container {
-        margin: auto;
-        margin-left: 25px;
-    }
-
-    .nav-outter-box {
-        height: 100px;
-        width: 100px;
-        margin: auto;
-        display: inline-block;
-    }
-    
-    #nav-home-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-things-to-do-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-getting-around-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-gallery-inner-box > a {
-        font-size: 80%;
-    }
-
-    #nav-contact-us-inner-box > a {
-        font-size: 80%;
-    }
-    
-    #nav-home-inner-box {
-        width: 100px;
-    }
-    
-    #nav-things-to-do-inner-box {
-        width: 100px;
-    }
-    
-    #nav-getting-around-inner-box {
-        width: 100px;
-    }
-    
-    #nav-gallery-inner-box {
-        width: 100px;
-    }
-    
-    #nav-contact-us-inner-box {
-        width: 100px;
-    }
-    
-    #contact-us-stamp {
-        width: 100px;
-    }
-    
-    #gallery-stamp {
-        width: 100px;
-    }
-    
-    #getting-around-stamp {
-        width: 100px;
-    }
-    
-    #things-to-do-stamp {
-        width: 100px;
-    }
-    
-    #home-stamp {
-        width: 100px;
-    }
-    
-    #contact-us-stamp-select {
-        width: 100px;
-    }
-    
-    #gallery-stamp-select {
-        width: 100px;
-    }
-    
-    #getting-around-stamp-select {
-        width: 100px;
-    }
-    
-    #things-to-do-stamp-select {
-        width: 100px;
-    }
-    
-    #home-stamp-select {
-        width: 100px;
     }
 
     #zealandia-section {
@@ -1003,8 +868,11 @@ label, input, textarea {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 810px) {
 
+    #logo {
+    }
+    
     #welcome {
         width: 80%;
         margin: auto;
@@ -1074,126 +942,6 @@ label, input, textarea {
         column-gap: 0;
     }
 
-    #logo {
-        float: none;
-        width: 50%;
-        margin-left: 25%;
-    }
-
-    #nav-wrapper {
-        float: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 175px;
-    }
-
-    #nav-container {
-        height: 175px;
-    }
-
-    #nav-home-inner-box {
-        margin: 0;
-        padding: 0;
-        width: 19%;
-        height: 20%;
-        display: flex;
-    }
-
-    #nav-things-to-do-inner-box {
-        margin: 0;
-        padding: 0;
-        width: 19%;
-        height: 20%;
-        display: flex;
-        margin-top: 60px;
-    }
-
-    #nav-getting-around-inner-box {
-        margin: 0;
-        padding: 0;
-        width: 19%;
-        height: 20%;
-        display: flex;
-        margin-top: 60px;
-    }
-
-    #nav-gallery-inner-box {
-        margin: 0;
-        padding: 0;
-        width: 19%;
-        height: 20%;
-        display: flex;
-        margin-top: 60px;
-    }
-
-    #nav-contact-us-inner-box {
-        margin: 0;
-        padding: 0;
-        width: 19%;
-        height: 20%;
-        display: flex;
-        margin-top: 60px;
-    }
-
-    .nav-outter-box {
-        width: 19%;
-        height: 20%;
-        margin: 0;
-        margin-top: 40px;
-        bottom: 0;
-        position: relative;
-    }
-
-    #contact-us-stamp {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #gallery-stamp {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #getting-around-stamp {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #things-to-do-stamp {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #home-stamp {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #contact-us-stamp-select {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #gallery-stamp-select {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #getting-around-stamp-select {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #things-to-do-stamp-select {
-        width: 19%;
-        margin-top: 19.5px;
-    }
-    
-    #home-stamp-select {
-        width: 19%;
-        margin-top: 19.5px;
-    }
 
     .form-input-text-field, textarea {
         width: 200px;
@@ -1208,6 +956,14 @@ label, input, textarea {
     }
 
     #gallery-welcome {
+        margin-bottom: 75%;
+    }
+
+    #index-welcome {
+        margin-bottom: 75%;
+    }
+
+    #contact-us-welcome {
         margin-bottom: 75%;
     }
 
