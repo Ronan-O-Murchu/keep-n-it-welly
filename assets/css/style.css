@@ -265,6 +265,18 @@ footer {
     padding-bottom: 20px;
 }
 
+#index-welcome {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-left: 20%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    padding-bottom: 20px;
+}
+
 #welcome-content {
     color: whitesmoke;
     text-align: center;
@@ -969,6 +981,14 @@ label, input, textarea {
     #home-stamp-select {
         width: 100px;
     }
+
+    #zealandia-section {
+        margin-bottom: 20%;
+    }
+
+    #getting-around-text-airport {
+        margin-bottom: 22%;
+    }
 }
 
 
@@ -1168,6 +1188,18 @@ label, input, textarea {
 
     .form-input-text-field, textarea {
         width: 200px;
+    }
+
+    #zealandia-section {
+        margin-bottom: 75%;
+    }
+
+    #getting-around-text-airport {
+        margin-bottom: 75%;
+    }
+
+    #gallery-welcome {
+        margin-bottom: 75%;
     }
 
 }
