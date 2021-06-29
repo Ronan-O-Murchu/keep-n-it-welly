@@ -1,59 +1,48 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Ronan-O-Murchu,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Purpose of the project
 
-## Gitpod Reminders
+“Keep’n it Welly” is a website to promote local tourism. The website will also aim to help visitors navigate the city by providing them with the essential info required to have a successful trip/experience. This is a website for not only for visitors with a lot of time on their hands, but people are on quick weekend getaway with the family.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+“Keep’n it Welly” is a website to promote local tourism. The website will also aim to help visitors navigate the city by providing them with the essential info required to have a successful trip/experience. This is a website for not only for visitors with a lot of time on their hands, but people are on quick weekend getaway with the family.
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+The nav menu allows the user to move through the website and also have a visual representation as to which page they are currently on without having to guess.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Footer__
 
-A blue button should appear to click: _Make Public_,
+The footer bar holds social media links which when clicked on will take the user to “Keep’n it Welly” – Facebook, Twitter, YouTube or Instagram pages.
 
-Another blue button should appear to click: _Open Browser_.
+- __Things to do page__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In this section the user will be presented with some options on what to do in the city and also have additional useful links which will bring them to official sources of the desired activity.
 
-To log into the Heroku toolbelt CLI:
+- __Getting around page__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This page outlines info on how to navigate the city and displays some of the common transportation needs. Each section has links to external sources which are to help the user with some additional info for official sources.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+- __Contact us page__
 
-## Updates Since The Instructional Video
+This page is for the user to provide a message and contact us for any additional requirements that they may have.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Future Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+On the “Home” page, I want to include a video display in the background to make the site more visually appealing.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+On the things to do page I would like to include an interactive map which will display areas in the city so that the user will have a visual indication as to the distance between popular destinations.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Typography and colour scheme
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The chosen style of the site is a clean display with strong contrast. I chose white on black for the text content as it stands out the most and is easy to read and then 100% strong vibrant colours for the navigation to clearly display where the user is on the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Style and colour inspiration:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+--Wellington iconic bucket fountain--
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Wireframes
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+--Wireframes--
