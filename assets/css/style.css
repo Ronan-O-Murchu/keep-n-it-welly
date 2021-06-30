@@ -29,15 +29,7 @@ a {
     color: rgb(255, 208, 0);
 }
 
-
-
-
-
 /* ----- Nav Stamp Styles ----- */
-
-
-
-
 
 #nav-wrapper {
     float: right;
@@ -147,15 +139,7 @@ a {
     margin-bottom: 10px;
 }
 
-
-
-
-
 /* ----- Footer Styles ----- */
-
-
-
-
 
 footer {
     margin-top: auto;
@@ -185,15 +169,7 @@ footer {
     margin-top: 15px;
 }
 
-
-
-
-
 /* ----- Home Page Styles ----- */
-
-
-
-
 
 #welcome-container {
     width: 100%;
@@ -239,15 +215,7 @@ footer {
     position: fixed;
 }
 
-
-
-
-
 /* ----- Things To Do Styles ----- */
-
-
-
-
 
 #things-to-do-body-image {
     background: url(../images/wellington-city-from-mt-vic-3.jpg) no-repeat center center;
@@ -408,15 +376,7 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-
-
-
-
 /* ----- Getting Around Styles ----- */
-
-
-
-
 
 #getting-around-body-image {
     width: 100%;
@@ -547,15 +507,7 @@ footer {
     border: 2px solid darkgray;
 }
 
-
-
-
-
 /* ----- Gallery Styles ----- */
-
-
-
-
 
 #gallery > h1 {
     font-size: 250%;
@@ -583,6 +535,8 @@ footer {
     border: 2px solid darkgray;
 }
 
+/* ----- Code taken from CI Love Running project Start ----- */
+
 #gallery-photos {
     clear: both;
     line-height: 0;
@@ -590,19 +544,13 @@ footer {
     column-gap: 0;
 }
 
+/* ----- Code taken from CI Love Running project End ----- */
+
 #gallery-photos > img {
     width: 100%;
 }
 
-
-
-
-
 /* ----- Contact Us Styles ----- */
-
-
-
-
 
 #contact-us-welcome {
     width: 90%;
@@ -649,15 +597,7 @@ label, input, textarea {
     margin-bottom: 1%;
 }
 
-
-
-
-
 /* ----- Responsive Medium Screen Styles ----- */
-
-
-
-
 
 @media screen and (max-width: 1900px) {
     
@@ -797,15 +737,7 @@ label, input, textarea {
 
 }
 
-
-
-
-
 /* ----- Responsive Small Screen Styles ----- */
-
-
-
-
 
 @media screen and (max-width: 580px) {
     

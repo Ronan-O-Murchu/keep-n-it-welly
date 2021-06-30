@@ -11,9 +11,9 @@ This website is designed for the purpose firstly showcasing what Wellington City
 
 The nav menu allows the user to move through the website and also have a visual representation as to which page they are currently on without having to guess. I chose to keep the nav bar color coded with strong colors as it clearly shows the section the user is on against a dark background.
 
-- __Full Nav Bar__
+The nav bar consists of two variations to accomodate for large and small screen sizes.
 
-- The nav bar consists of two variations to accomodate for large and small screen sizes.
+- __Full Nav Bar__
 
   ![Full Nav Bar](assets/images/readme-images/feature-full-nav-bar.jpg)
 
@@ -97,11 +97,19 @@ I chose balsamiq to create some wireframes and to knock out some ideas quickly.
 
 # Testing 
 
+After having shown my project to a handful of people I got some valuable feedback which allowed me to redesign some features. The Navgation bar was the biggest concern as 2/3 of my testers indicated that knowing where they were currently was very important.
+
+To use the feedback from te users I decided to increase the navigation tab area and make it stick to the top of the header section so that the text is naturally read second after the tab section is identified. The intention and purpose is to have the have the user eye natually trail from left to right and then top to bottom as this is more natural move.
+
+The biggest issue I had was making the nav bar compatible on smaller screens and after trying and testing some ideas and going back to the drawing board I decided to break it apart and change the placement of it altogether. I ended up creating the DIV to take up 100% width of the nav and header section and adjust the placement of the text with margins to allow for a consistent placement for the five navigation tabs.
+
 I used chrome dev tools to test and check all features of this site were working and displaying correctly. I chose two main screens sizes to work with in the beginning and then I started to make adjustments to the code by using the responsive tools in chrome to see how the site displayed in different screen orientations and widths.
 
-The biggest issue I had was making the nav bar compatible on smaller screens and after trying and testing some ideas and going back to the drawing board I decided to break it apart and change the placement of it altogether. I ended up creating the DIV to take up 100% width of the nav and header section and adjust the placement of the text with margins to allow for a consistent placement for the five 
-
 With further development of this I will be able to make and incorporate this look into other areas of the site; for example different colour tags for "things to do"/"getting around" sections.
+
+- __Original Navigantion Placement__
+
+  ![Home Page iPad](assets/images/readme-images/nav-menu-original.png)
 
 - __Home Page iPad__
 
@@ -123,7 +131,7 @@ With further development of this I will be able to make and incorporate this loo
 
 ### HTML
 
-No errors were returned when passing through the official
+- No errors were found when passing through the official W3C Markup Validation for all the HTML and CSS pages within the website.
 
 - __Home Page Validation__
   ![W3C HTML validator - Home Page](assets/images/readme-images/validation-html-home-page.png)
@@ -140,7 +148,6 @@ No errors were returned when passing through the official
 - __Contact-Us Page Validation__
   ![W3C HTML validator - Contact Us Page](assets/images/readme-images/validation-html-contact-us-page.png)
 
-  - No errors were found when passing through the official
 - __CSS Validation__
   ![CSS validator](assets/images/readme-images/validation-css.png)
 
