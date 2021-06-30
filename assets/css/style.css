@@ -199,7 +199,6 @@ footer {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: red;
     margin: auto;
 }
 
@@ -264,12 +263,27 @@ footer {
     float: right;
 }
 
-#things-to-do-right-text {
+#te-papa-text {
     display: inline-block; 
     width: 100%;
 }
 
-#things-to-do-left-text {
+#welly-trails-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#zealandia-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#bot-gardens-text {
+    display: inline-block; 
+    width: 100%;
+}
+
+#weta-workshop-text {
     display: inline-block; 
     width: 100%;
 }
@@ -471,7 +485,31 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-#body-content {
+#wellington-trains-body-content {
+    width: 80%;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-bus-body-content {
+    width: 80%;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+#wellington-rentals-body-content {
     width: 80%;
     color: whitesmoke;
     text-align: center;
@@ -566,6 +604,15 @@ footer {
 
 
 
+#contact-us-welcome {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 #contact-us-body-image {
     width: 100%;
     height: 100%;
@@ -612,7 +659,7 @@ label, input, textarea {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1900px) {
     
     #gallery-photos {
         clear: both;
@@ -760,14 +807,14 @@ label, input, textarea {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 580px) {
     
 
 
     #logo {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
 }
 
     #nav-wrapper {
@@ -848,32 +895,6 @@ label, input, textarea {
         margin-bottom: 10px;
     }
 
-    footer {
-        margin-top: auto;
-        height: 70px;
-        width: 100%;
-        background-color: black;
-        position: fixed;
-        bottom: 0;
-    }
-    
-    #social-media-link-container {
-        margin: auto;
-        margin-left: 8%;
-        margin-top: 1%;
-    }
-    
-    #social-media-link-container > h2 {
-        float: left;
-        padding-right: 5%;
-        margin-top: 5%;
-    }
-    
-    #social-media-link > a {
-        width: 10%;
-        margin-top: 5%;
-    }
-
     #gallery-photos {
         clear: both;
         line-height: 0;
@@ -946,4 +967,20 @@ label, input, textarea {
     #gallery > h1 {
         font-size: 200%;
     }
+
+    #contact-us-welcome {
+        margin-bottom: 30%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    
+
+
+    #logo {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
 }
