@@ -3,19 +3,23 @@
 
 # Purpose of the project
 
-This website is designed for the purpose of firstly showcasing what Wellington City has to offer and secondly being a source of the necessary information required to achieve a pleasant holiday / long weekend break.
+This website is designed for the purpose firstly showcasing what Wellington City has to offer and secondly being a source of some essential information required to achieve a pleasant holiday / long weekend break.
 
 # Features
 
 ## Navigation Bar
 
-The nav menu allows the user to move through the website and also have a visual representation as to which page they are currently on without having to guess. I chose to keep the nav bar color coded with strong colors as it cleary shows the section the user is on agaisnt a dark background.
+The nav menu allows the user to move through the website and also have a visual representation as to which page they are currently on without having to guess. I chose to keep the nav bar color coded with strong colors as it clearly shows the section the user is on against a dark background.
 
 - __Full Nav Bar__
-![Full Nav Bar](assets/images/readme-images/feature-full-nav-bar.jpg)
+
+- The nav bar consists of two variations to accomodate for large and small screen sizes.
+
+  ![Full Nav Bar](assets/images/readme-images/feature-full-nav-bar.jpg)
 
 - __Compressed Nav Bar__
-![Compressed Nav Bar](assets/images/readme-images/feature-comp-nav-bar.jpg)
+
+  ![Compressed Nav Bar](assets/images/readme-images/feature-comp-nav-bar.jpg)
 
 ## Footer
 
@@ -23,94 +27,116 @@ The footer bar holds social media links which when clicked on will take the user
 
 The icons were designed by myself using Adobe tool kit.
 
-![Full Footer and Social Media Links](assets/images/readme-images/feature-social-media-links.jpg)
+  ![Full Footer and Social Media Links](assets/images/readme-images/feature-social-media-links.jpg)
 
-## Things to do page
+## Things To Do Page
 
 In this section the user will be presented with some options on what to do in the city and also have additional useful links which will bring them to official sources of the desired activity. Each section is clearly divided to allow the user to focus on the info they are looking for without worrying about overflow info from another section.
 
-![Things to do](assets/images/readme-images/feature-things-to-do.png)
+  ![Things to do](assets/images/readme-images/feature-things-to-do.png)
 
-## Getting around page
+## Getting Around Page
 
-This page outlines info on how to navigate the city and displays some of the common transportation needs. Each section has links to external sources which are to help the user with some additional info for official sources. This section is also aclearly split to help with keeping the user focused on the section and info the need.
+This page outlines info on how to navigate the city and displays some of the common transportation needs. Each section has links to external sources which are to help the user with some additional info for official sources. This section is also clearly split to help with keeping the user focused on the section and info the need.
 
-![Getting around](assets/images/readme-images/feature-getting-around.png)
+  ![Getting around](assets/images/readme-images/feature-getting-around.png)
 
-## Gallery page
+## Gallery Page
 
 I have implemented a gallery to showcase what a beautiful city Wellington is and potentially give the user inspiration to come and check out the city and surrounding areas.
 
-![Gallery](assets/images/readme-images/feature-gallery.png)
+  ![Gallery](assets/images/readme-images/feature-gallery.png)
 
-## Contact us page
+## Contact Us Page
 
-This page is for the user to provide a message and contact us for any additional requirements that they migiht have.
+This page is for the user to provide a message and contact us for any additional requirements that they might have.
 
-![Contact us](assets/images/readme-images/feature-contact-us.jpg)
+  ![Contact us](assets/images/readme-images/feature-contact-us.jpg)
 
 # Future Features
 
-- I intend to design and implement a comprssed version of this nav bar that stills allows the user to have a clear representation as to what section they are on. The version I would like to develop would only display a single badge with the color property for that page while still allowing the user to see the other options which would pull out from the side of the page when hovered on.
+- I intend to design and implement a compressed version of this nav bar that stills allows the user to have a clear representation as to what section they are on. The version I would like to develop would only display a single badge with the color property for that page while still allowing the user to see the other options which would pull out from the side of the page when hovered on.
 
 - On the “Home” page, I want to include a video display in the background to make the site more visually appealing.
 
 - On the things to do page I would like to include an interactive map which will display areas in the city so that the user will have a visual indication as to the distance between popular destinations.
 
-- I still intend to work and devlop this site as I want to create a source for people to find out the necessary info for the city and then ultimately work on a website for tourists for the whole of New Zealand. This will be broken into two main sections of North and South islands and be a source of info and helpful tips for various users.
+- I still intend to work and develop this site as I want to create a source for people to find out the necessary info for the city and then ultimately work on a website for tourists for the whole of New Zealand. This will be broken into two main sections of North and South islands and be a source of info and helpful tips for various users.
 
-# Typography and colour scheme
+# Typography and Colour Scheme
 
 The chosen style of the site is a clean display with strong contrast. I chose white on black for the text content as it stands out the most and is easy to read and then 100% strong vibrant colours for the navigation to clearly display where the user is on the website. The colour scheme was inspired from an iconic landmark in Wellington "The Bucket Fountain" which to me represents strong features with colors and display.
 
-- Font style inspiration:
+- __Font style inspiration:__
 
-![Font style inspiration](assets/images/readme-images/inspiration-font.jpg)
+  ![Font style inspiration](assets/images/readme-images/inspiration-font.jpg)
 
-- Colour style inspiration:
+- __Colour style inspiration:__
 
-![Colour style inspiration](assets/images/readme-images/inspiration-style-colour.jpg)
+  ![Colour style inspiration](assets/images/readme-images/inspiration-style-colour.jpg)
 
 # Wireframes
 
 I chose balsamiq to create some wireframes and to knock out some ideas quickly.
 
-- Home page:
+- __Home:__
 
-![Home page wireframe](assets/images/readme-images/wireframe-home-page.png)
+  ![Home page wireframe](assets/images/readme-images/wireframe-home-page.png)
 
-- Things To Do:
+- __Things To Do:__
 
-![Things to do wireframe](assets/images/readme-images/wireframe-things-to-do.png)
+  ![Things to do wireframe](assets/images/readme-images/wireframe-things-to-do.png)
 
-- Getting Around:
+- __Getting Around:__
 
-![Getting around wireframe](assets/images/readme-images/wireframe-getting-around.png)
+  ![Getting around wireframe](assets/images/readme-images/wireframe-getting-around.png)
 
-- Contact Us:
+- __Contact Us:__
 
-![Contact us wireframe](assets/images/readme-images/wireframe-contact-us.png)
+  ![Contact us wireframe](assets/images/readme-images/wireframe-contact-us.png)
 
 # Testing 
 
-I used chrome dev tools to test and check all features of this site were working and displayed correctly. I chose two main screens sizes to work with in the begining and then start to make adjustments using the responsive tools in chrome to see how the site displayed in different view orientations.
+I used chrome dev tools to test and check all features of this site were working and displaying correctly. I chose two main screens sizes to work with in the beginning and then I started to make adjustments to the code by using the responsive tools in chrome to see how the site displayed in different screen orientations and widths.
 
-- __Home Page Validation__
+The biggest issue I had was making the nav bar compatible on smaller screens and after trying and testing some ideas and going back to the drawing board I decided to break it apart and change the placement of it altogether. I ended up creating the DIV to take up 100% width of the nav and header section and adjust the placement of the text with margins to allow for a consistent placement for the five 
 
+With further development of this I will be able to make and incorporate this look into other areas of the site; for example different colour tags for "things to do"/"getting around" sections.
 
+- __Home Page iPad__
+
+  ![Home Page iPad](assets/images/readme-images/responsive-home-ipad.png)
+
+- __Home Page iPhone__
+
+  ![Home Page iPhone](assets/images/readme-images/responsive-home-iphone.png)
+
+- __Things To Do Page iPad__
+
+  ![Things To Do Page iPad](assets/images/readme-images/responsive-things-to-do-ipad.png)
+
+- __Things To Do Page iPhone__
+
+  ![Things To Do Page iPhone](assets/images/readme-images/responsive-things-to-do-iphone.png)
 
 ## Validator Testing 
 
 ### HTML
-- No errors were returned when passing through the official 
+
+No errors were returned when passing through the official
+
 - __Home Page Validation__
   ![W3C HTML validator - Home Page](assets/images/readme-images/validation-html-home-page.png)
+
 - __Things To Do Page Validation__
   ![W3C HTML validator - Things To Do Page](assets/images/readme-images/validation-html-things-to-do-page.png)
+
 - __Getting Around Page Validation__
   ![W3C HTML validator - Getting Around Page](assets/images/readme-images/validation-html-getting-around-page.png)
+
 - __Gallery Page Validation__
   ![W3C HTML validator - Gallery Page](assets/images/readme-images/validation-html-gallery-page.png)
+
 - __Contact-Us Page Validation__
   ![W3C HTML validator - Contact Us Page](assets/images/readme-images/validation-html-contact-us-page.png)
 
@@ -133,11 +159,13 @@ The live link can be found here - https://ronan-o-murchu.github.io/keep-n-it-wel
 
 # Credits 
 
-For this website I used many sources for the images and word content. The images were pulled from google images with reference to each one below and the majority of the word content was pulled fro Wikipedia as well as others shown below.
+For this website I used many sources for the images and word content. The images were pulled from google images with reference to each one below and the majority of the word content was pulled from Wikipedia as well as others shown below.
 
-The foundation of the gallery section code was from the "Love Running" Code Insitute project.
+## Code 
 
-Reserach on how to fix minor errors with the code was mainly done thorugh W3Schools.
+- The foundation of the gallery section code was from the "Love Running" Code Institute project.
+
+- Research on how to fix minor general errors with the code was mainly done through W3Schools.
 
 ## Content 
 
@@ -160,11 +188,11 @@ Reserach on how to fix minor errors with the code was mainly done thorugh W3Scho
 
 ## Media
 
-- The photo used on the Home page is from:
+- The photos used on the Home page is from:
     - https://images.squarespace-cdn.com/content/v1/5c3bf5b9a9e028aedaf40d87/1555993269542-X97C9V94FHJ2W1ZWNAKE/ke17ZwdGBToddI8pDm48kDDckFQ-QCnd8Bdji_NBlmMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2doULyzW0VOynvl1phfW7aW2h0TkPvSq5eU_FcXRF02duH3bqxw7fF48mhrq5Ulr0Hg/U103-Mount-Victoria-Wellington-Rob-Suisted.jpg?format=1500w
 
 
-- The photo used on the Things To Do page is from:
+- The photos used on the Things To Do page is from:
     - https://upload.wikimedia.org/wikipedia/commons/b/b2/20170409_Zealandia_013-Pano.jpg
     - https://www.aucklandnz.com/sites/build_auckland/files/styles/carousel_banner/public/tourismnz/artist_shed_landscape_v1.jpg
     - https://i.pinimg.com/originals/60/25/95/6025950e63d4f2622ce81d1cf98598ad.jpg
@@ -172,14 +200,14 @@ Reserach on how to fix minor errors with the code was mainly done thorugh W3Scho
     - https://wilderness-production.imgix.net/2016/07/Paekakariki-Escarpment.web_.jpg?auto=compress%2Cformat&ixlib=php-1.2.1
 
 
-- The photo used on the Getting Around page is from:
+- The photos used on the Getting Around page is from:
     - https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_13/2798361/190325-rental-cars-cs-229p-2798361.jpg
     - https://archipro.co.nz/assets/photos/wellington-airport-carpark-5-2.jpg?raw=1
     - https://www.railexpress.com.au/wp-content/uploads/2016/03/Metlink-train-in-Wellington-Photo-Creative-Commons-Simons27.jpg
     - https://resources.stuff.co.nz/content/dam/images/1/q/k/f/p/b/image.related.StuffLandscapeSixteenByNine.1420x800.1qjle8.png/1530232509571.jpg
 
 
-- The photo used on the Gallery page is from:
+- The photos used on the Gallery page is from:
     - https://wellingtonzoo.com/assets/Uploads/ShareImage/Wellington-Zoo-Giraffe-Feed-edited.jpg
     - https://i.pinimg.com/originals/5e/cb/17/5ecb17d84e16a2ba649922a5fc2b9438.jpg
     - https://main-cdn.grabone.co.nz/goimage/495x343/e0875da6a39bce56aa255513943245b051527058.jpg
@@ -199,5 +227,5 @@ Reserach on how to fix minor errors with the code was mainly done thorugh W3Scho
     - https://cdn.britannica.com/02/94802-050-ABBF25E0/Maori-kapa-haka-Wellington-New-Zealand.jpg
 
 
-- The photo used on the Contact Us page is from:
+- The photos used on the Contact Us page is from:
     - https://trs.co.nz/wp-content/uploads/2018/11/famous-bucket-fountain-cuba-street-wellington-north-island-new-zealand_hl7-1pyaqx_thumbnail-full01.png
